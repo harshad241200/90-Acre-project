@@ -1,0 +1,21 @@
+body {
+  font-family: Arial;
+  font-size: 17px;
+}
+
+
+
+
+.container-fluid .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+ padding-left:1px;
+}
+
+.gt {
+  border-radius: 50%;
+}

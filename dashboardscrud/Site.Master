@@ -1,0 +1,184 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="dashboardscrud.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - My ASP.NET Application</title>
+    <link href="Content/81ac.css" rel="stylesheet" />
+    <link href="Content/all.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" 
+	integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous"
+	referrerpolicy="no-referrer" />
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+	integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" 
+	referrerpolicy="no-referrer" />
+    <link href="Content/81ac.css" rel="stylesheet" />
+</head>
+<body>
+    <form runat="server">
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">81 Acres</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Residential</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Commercial</a>
+      </li>
+	  
+	    <li class="nav-item">
+        <a class="nav-link" href="#">Agricultural</a>
+      </li>
+	  
+	    <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+	  
+	    <li class="nav-item">
+        <a class="nav-link" href="#">Services</a>
+      </li>
+	  
+	    <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+	  
+      
+    </ul>
+  </div>
+</nav>
+
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+           <footer class="page-footer pt-4 " style="background-color:#f3f3f3a3">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">81 acres</h5>
+        <p>The Capital Square Pvt Ltd was established in the year 2016 with the aim and objective of providing homes for every individual who is ready to purchase their dream home but requires professional assistance from experts in the field who will genuinely guide them and
+				do proper analysis before investment from the client.</p>
+                  <div class="d-flex flex-row bd-highlight mb-3">
+  <div class="p-2 bd-highlight"><a class="lk" href="#"><i class="fab fa-facebook-square"style="font-size:25px;color:blue;"></i></a></div>
+  <div class="p-2 bd-highlight"><i class="fab fa-instagram"style="font-size:25px;color:purple;"></i></div>
+  <div class="p-2 bd-highlight"><i class="fab fa-twitter-square"style="font-size:25px;color:black;"></i></div>
+  <div class="p-2 bd-highlight"><i class="fab fa-linkedin-in"style="font-size:25px;color:orange;"></i></div>
+</div>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">About</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Company</a>
+          </li>
+          <li>
+            <a href="#!">Community</a>
+          </li>
+          <li>
+            <a href="#!">Carres</a>
+          </li>
+          <li>
+            <a href="#!">News</a>
+          </li>
+		  <li>
+            <a href="#!">Contact</a>
+          </li>
+        </ul>
+                     
+      </div>
+      
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        
+        <h5 class="text-uppercase"> Quick Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">For Rent</a>
+          </li>
+          <li>
+            <a href="#!">For Sale</a>
+          </li>
+          <li>
+            <a href="#!">Commercial</a>
+          </li>
+          <li>
+            <a href="#!">Agents</a>
+          </li>
+		  <li>
+            <a href="#!">Property Guide</a>
+          </li>
+        </ul>
+
+      </div>
+      
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Help</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Payment</a>
+          </li>
+          <li>
+            <a href="#!">Shipping</a>
+          </li>
+          <li>
+            <a href="#!">Cancellation</a>
+          </li>
+          <li>
+            <a href="#!">Faq</a>
+          </li>
+		  <li>
+            <a href="#!">Report</a>
+          </li>
+        </ul>
+
+      </div>
+      
+
+    </div>
+    
+  </div>
+ 
+
+
+</footer>
+
+        
+    </form>
+
+  
+</body>
+</html>

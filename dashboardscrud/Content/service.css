@@ -1,0 +1,38 @@
+
+
+
+.tww{margin-top: -50px;
+     color:yellow;
+}
+
+.card-bodyt{background-color:#1c866b;
+            margin-top:2px;
+			text-align: center;
+}
+ 
+ .avv{text-align: center;
+       background-color:yellow;
+ }
+
+#tr{ border:2px solid;
+    background-color:white;
+
+    
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ij{background-size:cover;
+    
+    height: 864px;
+    margin-left: -118px;
+
+}
+
+body{background:#80808014}

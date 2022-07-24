@@ -1,0 +1,70 @@
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 209 190);
+	}
+	
+	.navbar-nav {
+	
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    
+    margin-bottom: 0;
+    list-style: none;}
+	
+	.navbar-light .navbar-brand {
+    color: rgb(247 173 6);
+}
+
+.row-title{color:orange;
+          
+}
+
+span{color:orange;}
+	
+#pu:hover{background-color:#01f7f7;
+          transition: 0.9s
+}
+
+.jk{color:orange;
+      text-align:center;
+}
+
+.smd{text-align:center;
+     color:orange;
+}
+
+.rt{text-align:center;
+     font-weight:bold;
+}
+
+.mah{text-align:center;
+     font-weight:bold;
+}
+
+
+.bg-imges {
+    background-image: url('aset/image/nature-3082832__480.jpg');
+    min-height: 380px;
+    padding-top: 12px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+  
+  .gl {
+
+  right: 0;
+  margin:50px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+
+
+   a:hover {
+    color:green;
+}
+ a{color:black;}
